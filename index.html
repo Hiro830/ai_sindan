@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AI診断</title>
+  <link rel="stylesheet" type="text/css" href="try.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+
+  </header>
+
+  <div class="slide-wrapper">
+    <h2 class="slide-title">AI診断</h2>
+
+    <p>suzuki's name: 鈴木さん</p>
+
+    <ul class="slides">
+      <li class="slide active">質問1: 人工知能って聞いたことある</li>
+      <li class="slide">質問2: python知ってる</li>
+      <li class="slide">質問3: AIって聞いたことある</li>
+      <li class="slide">質問4: 節約を考えてる</li>
+      <!-- <li class="slide">「ビッグデータ」って聞いたことある</li> -->
+    </ul>
+
+    <h1 class="answer" name="txtb">あなたは人工知能に興味があります</h1>
+    <h1 class="answer_no" name="txtb">good bye</h1>
+
+    <input class="btn" type="button" name="yes" value="YES" onClick="checkBtn(1)">
+    <input class="btn" type="button" name="no" value="NO" onClick="checkBtn(0)">
+  </div>
+
+  <script src="try.js"></script>
+</body>
+</html>

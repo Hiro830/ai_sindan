@@ -1,0 +1,92 @@
+body {
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.slide-wrapper {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  color: #5e6f84;
+  padding: 60px 0;
+}
+.slide-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.change-btn-wrapper {
+  width: 500px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+.change-btn-wrapper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.prev-btn {
+  cursor: pointer;
+  float: left;
+  display: none;
+}
+.next-btn {
+  cursor: pointer;
+  float: right;
+}
+
+/* 質問内容の部分 */
+.slides {
+  padding: 0;
+  font-size: 40px;
+}
+.slide {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+/* 回答内容の部分 */
+.answer, .answer_no {
+  display: none;
+  font-size: 50px;
+}
+/* index部分について */
+.index-btn-wrapper {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.index-btn {
+  display: inline-block;
+  color: #4e90af;
+  background-color: #e0f5ff;
+  width: 40px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.index-btn:hover {
+  color: #fff;
+  background-color: #5cabd0;
+}
+
+/* nameの部分 */
+p {
+  font-family: 'helvetica neue', helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgba(0,0,200,0.6);
+  background: rgba(0,0,200,0.3);
+  color: rgba(0,0,200,0.6);
+  box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor:pointer;
+}
